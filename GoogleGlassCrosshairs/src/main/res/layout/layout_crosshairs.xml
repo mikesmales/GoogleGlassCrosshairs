@@ -1,0 +1,82 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#66000000"
+    >
+	
+	<ImageView
+		android:id="@+id/image_corner_top_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:rotation="0"
+        android:scaleType="fitXY"
+	    	
+        android:contentDescription="image"
+        android:src="@drawable/corner_triangle_top_left" 
+	        
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentLeft="true"
+        />
+	
+	<ImageView
+		android:id="@+id/image_corner_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:rotation="90"
+        android:scaleType="fitXY"
+	    	
+        android:contentDescription="image"
+        android:src="@drawable/corner_triangle_top_left" 
+	        
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"
+        />
+	
+	<ImageView
+		android:id="@+id/image_corner_bottom_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:rotation="270"
+        android:scaleType="fitXY"
+	    	
+        android:contentDescription="image"
+        android:src="@drawable/corner_triangle_top_left" 
+	        
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentLeft="true"
+        />
+	
+	<ImageView
+		android:id="@+id/image_corner_bottom_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:rotation="180"
+        android:scaleType="fitXY"
+	    	
+        android:contentDescription="image"
+        android:src="@drawable/corner_triangle_top_left" 
+	        
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"
+        />
+	
+	<ImageView
+		android:id="@+id/image_crosshairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:scaleType="fitXY"
+	        
+        android:contentDescription="image"
+        android:src="@drawable/crosshairs" 
+	        
+    	android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
